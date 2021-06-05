@@ -1,7 +1,7 @@
 # AutoTracerBundle
 ![https://shepherd.dev/github/MinDBreaK/AutoTracerBundle](https://shepherd.dev/github/MinDBreaK/AutoTracerBundle/coverage.svg)
 
-This bundle aims  at tracing automatically requests & events in a Symfony application.
+This bundle aims at tracing automatically requests & events in a Symfony application.
 
 ## Requirements
 * PHP 8
