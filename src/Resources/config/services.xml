@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services https://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <defaults autoconfigure="true" autowire="true" public="false" />
+
+        <service id="Mindbreak\SymfonyAutoTracer\Tracing\Tracer" />
+
+        <service id="Mindbreak\SymfonyAutoTracer\EventDispatcher\TracingEventListener"
+                 decorates="event_dispatcher"
+        >
+            <argument type="service" id=".inner" key="$decorated"/>
+        </service>
+    </services>
+</container>
