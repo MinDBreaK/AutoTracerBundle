@@ -1,5 +1,5 @@
 # AutoTracerBundle
-![](https://shepherd.dev/github/mindbreak/auto-tracing-bundle/coverage.svg)
+![https://shepherd.dev/github/MinDBreaK/AutoTracerBundle](https://shepherd.dev/github/MinDBreaK/AutoTracerBundle/coverage.svg)
 
 This bundle aims  at tracing automatically requests & events in a Symfony application.
 
